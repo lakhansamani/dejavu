@@ -4,6 +4,7 @@ import { CrossStorageHub } from 'cross-storage';
 
 import App from './App';
 
+console.log('app loading');
 CrossStorageHub.init([
 	{ origin: /\.appbase.io$/, allow: ['get'] },
 	{ origin: /localhost:1359$/, allow: ['get'] },
