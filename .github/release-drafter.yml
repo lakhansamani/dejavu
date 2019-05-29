@@ -9,4 +9,4 @@ categories:
       label: build
 template: |
     ## Changes
-    $COMMITS
+    $CHANGES
